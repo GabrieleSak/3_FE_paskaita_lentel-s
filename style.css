@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lato&family=Roboto&display=swap');
+
+h1 {
+    font-family: 'Inconsolata', monospace;
+}
+
+table:nth-of-type(1) {
+    border-collapse: collapse;
+    border: 2px solid #f8c724;
+    /* font-weight: 900; */
+    font-family: 'Roboto', sans-serif;
+}
+
+table:nth-of-type(1) td, th {
+    padding: 10px;
+    border: 1px solid #f8c724;
+    width: 150px;
+    height: 30px;
+}
+
+
+table:nth-of-type(1) td {
+    background: #4016a3;
+    color: white;
+}
+
+table:nth-of-type(1) th {
+    background: #f8c724;
+    font-weight: bold;
+}
+
+table:nth-of-type(1) th:nth-of-type(2) {
+    background: #d3a91e
+}
+
+table:nth-of-type(2) {
+    border-collapse: collapse;
+    border: 2px solid white;
+    font-family: lato;
+    color: white;
+    text-align: left;
+}
+
+table:nth-of-type(2) th, td {
+    padding: 10px;
+    border: 1px solid white;
+    width: 150px;
+    height: 30px;
+}
+
+
+table:nth-of-type(2) tr:nth-of-type(even) {
+    background: #ec84cd;
+}
+
+table:nth-of-type(2) tr:nth-of-type(odd), th {
+    background: #8d2b70;
+}
+
+table:nth-of-type(3) {
+    border-collapse: collapse;
+    border: 2px solid black;
+    /* font-weight: 900; */
+    font-family: 'Inconsolata', monospace;
+}
+
+table:nth-of-type(3) th {
+    padding: 10px;
+    border: 2px solid black;
+    width: 300px;
+    height: 30px;
+    background: none;
+    text-align: left;
+}
+
+table:nth-of-type(3) td {
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 15px;
+}
+
+.orange {
+    background: orange;
+    color: white;
+}
+.blue {
+    background: blue;
+    color: white;
+}
+.green {
+    background: greenyellow;
+    color: white;
+}
